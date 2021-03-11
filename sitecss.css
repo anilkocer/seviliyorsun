@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: auto;
+      /* LOGO VE HEADER KISMI */
+    }
+    body{
+    background-color:#d6d5d5;
+    font-family:Arial, Helvetica, sans-serif ;
+    background-image: url("./img/foto.png");
+    }
+    .header .logo{
+    
+    margin: 15px;
+    width: 20%;
+    display: block;
+    
+    
+    }
+     @media screen and (min-width:438px) {
+    .navbar{
+        background-color:rgb(2, 4, 116);
+        box-shadow:2px 2px 0 rgb(43, 0, 0);
+        width: 100%;
+        height: 40px;
+        margin: auto;
+        position: static;
+        min-width: 438px;    
+    }
+    
+    a{
+        text-decoration: none;
+        color:rgb(255, 255, 255);   
+    }
+    .header ul{
+        margin-left: auto;
+        padding:0;
+        float: right;
+        min-width: 438px;
+        list-style: none;
+         
+    }
+    .header ul a{
+        padding:10px;
+        float: left;
+        margin: 0;
+        
+    }
+    .header ul a:hover{
+        background-color:#ddd
+    }
+    
+    
+     }
+    @media screen and (max-width:438px) {
+        .navbar{
+            background-color:rgb(2, 4,116);
+            box-shadow:2px 2px 0 rgb(2, 0, 66);
+            width: 100%;
+            height: 140px;
+            margin: auto;
+            position: static;;
+            
+        }
+        .header .logo{
+    
+            margin: 15px;
+            width:35%;
+            display: block;
+        }
+        a{
+            text-decoration: none;
+            color:rgb(255, 255, 255);
+            
+        }
+        .header ul{
+            margin-top: 15px;
+            padding:0px;
+             list-style: none;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .header ul a{
+            padding:0px;
+            padding-left: auto;
+            margin: 0px;
+            
+        }
+        .header ul a:hover{
+            background-color:#ddd;
+            
+        }
+        .list {
+            padding: 4px;
+            border-bottom: 1px solid rgb(151, 151, 155);
+        }
+         }
+         
+     
+    /* Main Kısmı */
+    
+    .maintable{
+    
+    width: 60%;
+    height: 500px;
+    
+    }
+    
+    .uçak{
+    
+    width: 30% ;
+    margin-left: 40%;
+    }
+    .anasayfayazisi{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    color:black;
+    }
+    
+    .maintable1{
+        border: black solid ;
+        width: 60%;
+    height: 500px;
+    border-collapse: collapse;
+    background-color: pink;
+    }
+    .uçakiçi{
+    width: 60%;
+    height: auto;
+    float:left;
+    
+    }
+    .uçakiçi2{
+     width: 50%;
+     height: auto;
+     float:right;
+    
+    }
+    .uçakiçi3{
+    
+    width: 50%;
+    height: auto;
+    float: left;
+    margin-bottom: 5px;
+    }
+    .gif{
+        width: 35%;
+        height: auto;
+    }
+    @media screen and (max-width:438px){
+    .kokpit{
+        width: 100%;
+     height: auto;
+     
+    }
+    }
+    @media screen and (min-width:438px){
+        .kokpit{
+            width: 50%;
+         height: auto;    
+    }
+    }
+    .havalimanı{
+        width: 100%;
+        height: auto;
+    }
+    .kurumsalbaslik{
+        color: #ffffff;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    
+    .iletişimlogoları{
+    width: 7%;
+    float: center;
+    }
+    .iletişimbilgileri{
+        padding: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        text-align:center;
+    }
+    .iletişimyazi{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(2,4,116);
+    }
+    
+    /* FOOTER KISMI */
+    
+    .telif {
+        border: 1px solid rgb(3, 1, 150) ;
+        width: 100%;
+        background-color: rgb(2, 4, 116); 
+        bottom: 0px;   
+        color: #ffffff;
+        position: fixed ;
+    }
+    .socialmedia{
+    
+        float: right;
+        margin-right: 15px;
+    }
+    
